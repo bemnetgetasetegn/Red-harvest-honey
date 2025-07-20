@@ -2,7 +2,7 @@ const Hero = () => {
   return (
     <div
       id="home"
-      className="relative h-screen bg-[linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('./assets/background.jpg')] bg-cover bg-center text-white"
+      className="relative h-screen bg-[linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('../assets/background.jpg')] bg-cover bg-center text-white"
     >
       {/* Mobile: Centered content */}
       <div className="md:hidden flex h-full items-center justify-center px-4">
