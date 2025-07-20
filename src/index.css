@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lexend:wght@100..900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+.transition-all {
+  transition: all 0.3s ease-in-out;
+}
+
+
+.btn {
+     @apply uppercase text-graphite p-3 rounded-xl
+}
+
+.btn-primary {
+    @apply bg-honey  
+}
+
+.btn-secondary {
+    @apply uppercase text-black bg-creamy  
+}
+
+.h1 {
+    @apply uppercase text-7xl
+}
+.h2 {
+    @apply capitalize text-5xl
+}
+
+.p {
+    @apply font-thin
+}
